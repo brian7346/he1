@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Чекбоксы и радио-кнопки</title>
+</head>
+<body>
+    <h2>Чекбоксы и радио-кнопки:</h2>
+    <form action="/submit" method="post">
+        <h3>Выберите пол:</h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label>
+        <br>
+        <h3>Выберите интересы:</h3>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Спорт</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Музыка</label>
+        <input type="checkbox" id="books" name="interests" value="books">
+        <label for="books">Книги</label>
+        <br>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html> 

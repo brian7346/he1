@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Валидация формы</title>
+</head>
+<body>
+    <h2>Валидация формы:</h2>
+    <form action="/submit" method="post">
+        <label for="username">Имя пользователя:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required minlength="6">
+        <br>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html> 
